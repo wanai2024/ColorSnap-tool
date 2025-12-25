@@ -1,14 +1,107 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ColorSnap - 在线图片颜色提取工具</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      crossorigin="anonymous"
-    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- Primary Meta Tags -->
+    <title>图片取色工具-图片取色器-拾色器 - 免费在线图片颜色提取工具</title>
+    <meta name="title" content="ColorSnap - 免费在线图片颜色提取工具 | 提取图片主色和调色板" />
+    <meta name="description" content="ColorSnap 是一款免费的在线图片颜色提取工具，支持上传图片自动提取主色、生成调色板、分析颜色分布。无需安装，直接在浏览器中使用，支持下载颜色数据为 JSON 或 CSV 格式。" />
+    <meta name="keywords" content="颜色提取,图片颜色提取,调色板生成,在线取色工具,色值提取,图片配色,颜色分析,网页取色,color extractor,palette generator" />
+    <meta name="author" content="ColorSnap" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://image-coloring.wuyouseo.com/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://image-coloring.wuyouseo.com/" />
+    <meta property="og:title" content="ColorSnap - 免费在线图片颜色提取工具" />
+    <meta property="og:description" content="上传图片，自动提取主色和调色板。支持多种格式导出，完全免费使用。" />
+    <meta property="og:image" content="https://image-coloring.wuyouseo.com/og-image.png" />
+    <meta property="og:site_name" content="ColorSnap" />
+    <meta property="og:locale" content="zh-CN" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://image-coloring.wuyouseo.com/" />
+    <meta name="twitter:title" content="ColorSnap - 免费在线图片颜色提取工具" />
+    <meta name="twitter:description" content="上传图片，自动提取主色和调色板。支持多种格式导出，完全免费使用。" />
+    <meta name="twitter:image" content="https://image-coloring.wuyouseo.com/og-image.png" />
+    
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/logo.svg" />
+    <meta name="theme-color" content="#3b82f6" />
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+      "@type": "Organization",
+      "name": "ColorSnap",
+      "url": "https://image-coloring.wuyouseo.com/",
+      "logo": "https://image-coloring.wuyouseo.com/logo.png",
+      "description": "免费在线图片颜色提取工具",
+      "sameAs": []
+    },
+        {
+          "@type": "WebSite",
+          "name": "ColorSnap",
+          "url": "https://colorsnap.vercel.app/",
+          "description": "免费在线图片颜色提取工具",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://image-coloring.wuyouseo.com/?q={search_term_string}"
+        },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "name": "ColorSnap",
+          "url": "https://image-coloring.wuyouseo.com/",
+          "description": "在线图片颜色提取工具，支持提取图片主色、生成调色板、分析颜色分布",
+          "applicationCategory": "DesignApplication",
+          "operatingSystem": "Web Browser",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          }
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "ColorSnap",
+          "url": "https://image-coloring.wuyouseo.com/",
+          "description": "免费在线图片颜色提取工具，支持提取主色、生成调色板、颜色分析和导出",
+          "featureList": [
+            "图片上传和预览",
+            "自动提取图片主色",
+            "生成完整调色板",
+            "颜色分布可视化分析",
+            "支持 JSON 和 CSV 格式导出",
+            "拖拽上传图片",
+            "实时预览颜色效果"
+          ],
+          "applicationCategory": "DesignApplication",
+          "operatingSystem": "Web Browser"
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
