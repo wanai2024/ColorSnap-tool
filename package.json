@@ -7,7 +7,7 @@
     "dev:client": "vite --host --port 3000",
     "dev": "pnpm dev:client",
     "build:client": "vite build",
-    "build": "vite build",
+    "build": "vite build"
   },
   "dependencies": {
     "clsx": "^2.1.1",
